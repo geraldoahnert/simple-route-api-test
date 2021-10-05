@@ -1,0 +1,18 @@
+{
+  "name": "simple-route-api-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Geraldo Ahnert <geraldoahnert@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.2.4",
+    "supertest": "^6.1.6"
+  }
+}
